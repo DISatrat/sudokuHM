@@ -26,21 +26,22 @@ namespace sudokuHM
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SelectedDifficulty = 1;
+            //30
+            SelectedDifficulty = 30;
             this.DialogResult = DialogResult.OK; 
             this.Close(); 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SelectedDifficulty = 2;
+            SelectedDifficulty = 40;
             this.DialogResult = DialogResult.OK; 
             this.Close(); 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            SelectedDifficulty = 3;
+            SelectedDifficulty = 45;
             this.DialogResult = DialogResult.OK; 
             this.Close();
         }
